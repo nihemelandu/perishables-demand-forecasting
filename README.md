@@ -9,10 +9,10 @@
 ---
 
 ## 🎯 Key Findings
+- **Forecast Accuracy**: 18% improvement over baseline across pilot stores 
 - **Spoilage Reduction**: 25% decrease in perishable waste
-- **Inventory Turnover**: 10% improvement in operational efficiency
-- **Stockout Prevention**: 5-day reduction in out-of-stock duration
-- **Forecast Accuracy**: 12.5% MAPE with ensemble modeling
+- **Stockout Prevention**:5-day reduction in out-of-stock duration
+- **Implementation**:  Successfully delivered insights via dashboards for replenishment planning
 
 ## 🔧 Technical Stack
 - **Languages**: Python 3.9+, SQL
@@ -353,7 +353,7 @@ make performance-test
 *Note: Proprietary retail data anonymized for privacy compliance. Synthetic alternatives maintain statistical characteristics.*
 
 ---
-
+<!--
 ## 🚀 Deployment & Reproducibility
 
 ### Docker Setup
@@ -389,7 +389,7 @@ docker-compose up -d
 - **AutoML**: Automated hyperparameter tuning and model selection
 
 ---
-
+-->
 ## 📄 Citation
 ```bibtex
 @misc{perishables_forecasting_2024,
@@ -413,4 +413,4 @@ Ngozi Ihemelandu - [@nihemelandu](https://github.com/nihemelandu)
 ---
 
 ## 🏷️ Tags
-`time-series-forecasting` `retail-analytics` `inventory-optimization` `python` `machine-learning` `demand-planning` `supply-chain` `data-science`
+`time-series-forecasting` `retail-analytics` `python` `machine-learning` `demand-planning` `supply-chain` `data-science`
