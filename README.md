@@ -90,6 +90,8 @@ Applied multi-model time series forecasting approach:
 - **Cross-Validation**: Time series split validation with 52-week lookback
 - **Walmart-Scale Testing**: Multi-store, multi-category validation
 - **Business Metrics**: ROI analysis and operational impact assessment
+  
+📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
 
 ---
 
