@@ -89,6 +89,37 @@ Based on business impact and data availability assessment:
 
 ## 1.6 Scope Definition
 
+### ✅ In Scope
+
+These areas will be addressed in the current project. They align with the root causes of the business problem and are feasible given data availability and timeline.
+
+| Scope Item | Description | Clarifying Questions |
+|------------|-------------|----------------------|
+| **Inaccurate demand predictions** | Improve forecasting for perishable goods at the store-product level. | - What exactly are we forecasting (daily, weekly, promo windows)?<br>- What is the current forecast accuracy baseline?<br>- What level of granularity is needed (store-product)? |
+| **Local market influences** | Incorporate demographic, competitive, and neighborhood-specific data into forecasts. | - What local data is available?<br>- At what frequency and level of resolution?<br>- How is local behavior known to impact demand? |
+| **Promotional impact modeling** | Use past promotions and outcomes to adjust future forecasts. | - Is promotion data structured and linked to sales outcomes?<br>- Can we isolate promo effects from other trends? |
+| **Seasonality and external patterns** | Account for seasonal trends, events, and external demand drivers. | - How many seasonal cycles are modeled?<br>- Have recent years deviated from historical patterns? |
+| **Forecast-driven replenishment guidance** | Deliver improved demand forecasts to support replenishment teams. | - Who will consume these forecasts (store managers, planners)?<br>- How are forecasts currently integrated into decisions? |
+
+---
+
+### 🚫 Out of Scope
+
+The following areas are not included in this project. They fall outside the root cause domain or require separate solutions.
+
+| Not in Scope | Reason | Clarifying Questions |
+|--------------|--------|----------------------|
+| **Manual ordering behavior** | Decisions remain with store teams; this project provides better inputs only. | - Who owns ordering decisions?<br>- Will behavior change be needed for adoption? |
+| **Supplier/vendor management** | This initiative does not address upstream supply chain constraints. | - Are suppliers part of this planning process?<br>- Will forecasts affect procurement timelines? |
+| **Product lifecycle forecasting** | Focus is on existing SKUs with historical data. | - How are new products handled?<br>- Is lifecycle forecasting owned by another team? |
+| **Pricing optimization** | Forecasts will use current pricing as-is. No pricing changes will be recommended. | - Are pricing changes documented?<br>- Could pricing shifts affect model outcomes? |
+| **Store layout and merchandising** | Physical display decisions are excluded. | - Are merchandising effects modeled or documented?<br>- Does store layout vary significantly? |
+| **Waste disposal processes** | This project aims to reduce waste, not manage disposal logistics. | - Is waste cost data available for measurement?<br>- Who manages disposal at store level? |
+| **Emergency procurement actions** | The model does not account for ad hoc procurement. | - Are emergencies common?<br>- Will this project affect their frequency? |
+
+<!--
+## 1.6 Scope Definition
+
 **In Scope (Root Causes the Project Will Address):**
 - **Inaccurate demand predictions** - Enhanced forecasting models incorporating local market factors
 - **Ignored promotional impacts** - Integration of promotional calendar and historical promotional performance
@@ -103,7 +134,7 @@ Based on business impact and data availability assessment:
 - **Store layout optimization** – Physical merchandising and space allocation are not addressed
 - **Individual waste disposal processes** – Focus is on preventing waste, not managing disposal logistics
 - **Emergency procurement actions** – The project will predict demand, but emergency sourcing remains with procurement teams
-
+-->
 ## 1.7 Assumptions & Constraints
 
 **Key Assumptions:**
