@@ -109,9 +109,78 @@ Applied multi-model time series forecasting approach:
 - **Implementation ROI**: 420% over 18 months
 
 ---
-
 ## 🗂️ Repository Structure
-
+```
+perishables-demand-forecasting/
+├── README.md
+├── requirements.txt
+├── environment.yml
+├── LICENSE
+├── .gitignore
+├── data/
+│   ├── README.md
+│   ├── raw/
+│   │   ├── sales_data.csv
+│   │   ├── inventory_levels.csv
+│   │   └── product_catalog.csv
+│   ├── processed/
+│   │   ├── demand_time_series.pkl
+│   │   └── feature_matrix.pkl
+│   └── external/
+│       ├── weather_data.csv
+│       └── holiday_calendar.csv
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_development.ipynb
+│   ├── 04_model_evaluation.ipynb
+│   ├── 05_business_impact_analysis.ipynb
+│   └── 06_interactive_dashboard.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── loader.py
+│   │   ├── preprocessor.py
+│   │   └── feature_engineering.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── arima_model.py
+│   │   ├── prophet_model.py
+│   │   ├── exponential_smoothing.py
+│   │   └── ensemble_forecaster.py
+│   ├── evaluation/
+│   │   ├── __init__.py
+│   │   ├── metrics.py
+│   │   └── cross_validation.py
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── forecasting_plots.py
+│   │   └── dashboard.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── helpers.py
+├── scripts/
+│   ├── run_pipeline.py
+│   ├── train_models.py
+│   └── generate_forecasts.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_processing.py
+│   ├── test_models.py
+│   └── test_evaluation.py
+├── results/
+│   ├── forecasts/
+│   ├── model_outputs/
+│   ├── figures/
+│   └── reports/
+├── docs/
+│   ├── methodology.md
+│   ├── business_case.md
+│   ├── technical_documentation.md
+```
+<!--
 ```
 perishables-demand-forecasting/
 ├── README.md
@@ -191,6 +260,7 @@ perishables-demand-forecasting/
     ├── docker-compose.yml
     └── kubernetes/
 ```
+-->
 
 ---
 
