@@ -90,9 +90,6 @@ Applied multi-model time series forecasting approach:
 - **Cross-Validation**: Time series split validation with 52-week lookback
 - **Walmart-Scale Testing**: Multi-store, multi-category validation
 - **Business Metrics**: ROI analysis and operational impact assessment
-  
-📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
-
 ---
 
 ## 📈 Results
@@ -109,6 +106,8 @@ Applied multi-model time series forecasting approach:
 - **Inventory Optimization**: 10% improvement in turnover rate
 - **Customer Satisfaction**: 15% reduction in stockout incidents
 - **Implementation ROI**: 420% over 18 months
+  
+📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
 
 ---
 ## 🗂️ Repository Structure
