@@ -81,6 +81,7 @@ print(f"Predicted Demand: {forecasts.mean_forecast:.0f} units")
 ---
 
 ## 📊 Methodology
+📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
 Applied multi-model time series forecasting approach:
 - **Statistical Models**: ARIMA with seasonal decomposition
 - **Machine Learning**: Prophet with holiday effects and changepoints
@@ -105,11 +106,9 @@ Applied multi-model time series forecasting approach:
 - **Spoilage Reduction**: 25% decrease in perishable waste
 - **Inventory Optimization**: 10% improvement in turnover rate
 - **Customer Satisfaction**: 15% reduction in stockout incidents
-- **Implementation ROI**: 420% over 18 months
-  
-📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
-
+- **Implementation ROI**: 420% over 18 months 
 ---
+
 ## 🗂️ Repository Structure
 ```
 perishables-demand-forecasting/
