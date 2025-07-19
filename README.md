@@ -81,7 +81,7 @@ print(f"Predicted Demand: {forecasts.mean_forecast:.0f} units")
 ---
 
 ## 📊 Methodology
-📘 For a detailed breakdown of the problem definition, scoping process, stakeholder requirements, and project methodology, see the full [Methodology Document](docs/methodology.md)
+
 Applied multi-model time series forecasting approach:
 - **Statistical Models**: ARIMA with seasonal decomposition
 - **Machine Learning**: Prophet with holiday effects and changepoints
