@@ -178,4 +178,41 @@ The following areas are not included in this project. They fall outside the root
 
 ---
 
+## 1.9 Problem Translation to Data Science Task
+
+**Data Science Task:**  
+**Localized Time Series Forecasting for Perishable Demand**
+
+**Translation Summary:**  
+The core issue of inaccurate perishable demand forecasts is reframed as a data science problem focused on **forecasting future sales volume of perishable items at the store-product level**, while accounting for **exogenous variables** that impact demand. This enables improved replenishment decisions, reducing both spoilage and stockouts.
+
+### **Task Formulation:**
+- **Type:** Supervised Time Series Forecasting  
+- **Target Variable:** Weekly (or daily) sales quantity per SKU per store  
+- **Features (Covariates):**
+  - Historical sales data
+  - Local demographic indicators
+  - Promotional activity calendars
+  - Seasonal and holiday events
+  - Weather and regional patterns (if available)
+
+### **Modeling Approach:**
+- **Baseline Models:** ARIMA, Exponential Smoothing (ETS)
+- **Enhanced Models:** Time Series with Exogenous Variables (SARIMAX), Holt-Winters with seasonality
+- **Alternative Options:** Gradient boosting or RNNs if traditional models underperform due to nonlinearity
+
+
+### **Performance Metrics:**
+- Mean Absolute Percentage Error (MAPE)
+- Root Mean Squared Error (RMSE)
+- Forecast bias (over/under-prediction tendencies)
+- Business KPIs: Waste %, stockout duration, inventory turnover
+
+### **Outcome Goals:**
+- Improve forecast accuracy by >15%
+- Reduce spoilage by 25%
+- Decrease average stockout duration by 5 days
+- Provide actionable insights via store-level dashboards for replenishment planners
+---
+
 *This methodology document will be updated as the project progresses through data discovery, analysis, and solution development phases.*
