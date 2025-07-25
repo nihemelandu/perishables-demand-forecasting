@@ -7,7 +7,7 @@
 **Urgency:** High - Critical operational and financial impact
 
 **Original Problem Description:**
-> "Significant inventory waste and stockouts observed across multiple store locations for perishable goods; current demand forecasts fail to account for local trends, promotions, and seasonal factors, leading to suboptimal replenishment decisions."
+> "Significant inventory waste and stockouts are observed across multiple store locations for perishable goods. Current demand forecasts fail to account for local trends, promotions, and seasonal factors, leading to suboptimal replenishment decisions."
 
 ## 1.2 Problem Decomposition
 
