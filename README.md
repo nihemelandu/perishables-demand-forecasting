@@ -28,9 +28,16 @@
 
 ### Prerequisites
 ```bash
-Python 3.9+
-PostgreSQL 12+ (optional)
-Docker (optional)
+Python 3.9+ installed
+Google Cloud SDK installed and configured
+Google Cloud authentication set up (see below)
+Required Python packages installed
+
+# For Google Cloud SDK installation & authentication:
+https://cloud.google.com/sdk/docs/install
+
+# Ensure these Python packages are installed:
+pip install google-cloud-bigquery pandas numpy faker
 ```
 
 ### Installation
@@ -48,9 +55,10 @@ pip install -r requirements.txt
 
 # Run tests
 pytest tests/
-
+<!--
 # Verify installation
 python -c "import src; print('Installation successful!')"
+-->
 ```
 
 ### Quick Demo
