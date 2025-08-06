@@ -55,11 +55,11 @@ pip install -r requirements.txt
 
 # Run tests
 pytest tests/
-<!--
-# Verify installation
-python -c "import src; print('Installation successful!')"
--->
 ```
+<!--# Verify installation-->
+<!--python -c "import src; print('Installation successful!')"-->
+
+
 
 ### Quick Demo
 ```python
@@ -293,6 +293,18 @@ perishables-demand-forecasting/
 
 ## 📓 Usage Examples
 
+### Quick Start
+```bash
+# 1. Create BigQuery schema
+python bigquery_schema_implementation.py --project-id your-gcp-project-id
+
+# 2. Generate and load synthetic data
+python data_loader.py --project-id your-gcp-project-id
+
+# 3. Run forecasting pipeline
+python scripts/run_pipeline.py --config config/pipeline_config.yaml
+```
+
 ### Running Pipeline Components
 ```bash
 # Full forecasting pipeline
@@ -309,7 +321,6 @@ python scripts/generate_forecasts.py --horizon 14 --output results/forecasts/
 ```bash
 # Launch dashboard
 python src/visualization/dashboard.py
-
 # Access at http://localhost:8050
 ```
 
@@ -321,6 +332,8 @@ python src/visualization/dashboard.py
 5. **Business Impact**: `notebooks/05_business_impact_analysis.ipynb`
 6. **Interactive Dashboard**: `notebooks/06_interactive_dashboard.ipynb`
 
+📖 **For detailed usage instructions, configuration options, and advanced examples, see the [Complete Usage Guide](docs/usage_guide.md)**
+```
 ---
 
 ## 📘 Professional Documentation
